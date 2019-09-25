@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+html {
+  background-color: royalblue;
+}
+
+.cal_body {
+  width: 350px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.589);
+  border-radius: 5px;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+#output {
+  height: 70px;
+  width: 100%;
+  background-color: cadetblue;
+  color: black;
+  padding-left: 5px;
+  line-height: 70px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.but_parent {
+  width: 100%;
+  height: 390px;
+  float: left;
+}
+
+.button {
+  float: left;
+  width: 20%;
+  margin-left: 6.66%;
+  height: 60px;
+  margin-top: 18px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.555);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.486);
+}
+
+.button:first-child,
+.button:nth-child(5),
+.button:nth-child(9),
+.button:nth-child(13),
+.button:nth-child(17) {
+  margin-left: 0;
+}
+
+.button:first-child,
+.button:nth-child(2),
+.button:nth-child(3) {
+  background-color: gray;
+}
+
+.button:first-child:hover,
+.button:nth-child(2):hover,
+.button:nth-child(3):hover {
+  background-color: rgba(128, 128, 128, 0.863);
+}
+
+.button:nth-child(4),
+.button:nth-child(8),
+.button:nth-child(12),
+.button:nth-child(16) {
+  background-color: mediumvioletred;
+  color: rgba(0, 0, 0, 0.555);
+}
+
+.button:nth-child(4):hover,
+.button:nth-child(8):hover,
+.button:nth-child(12):hover,
+.button:nth-child(16):hover {
+  background-color: rgba(199, 21, 134, 0.925);
+}
+
+.button:last-child {
+  background-color: darkorange;
+  color: rgba(0, 0, 0, 0.555);
+}
+
+.button:last-child:hover {
+  background-color: rgba(255, 140, 0, 0.877);
+}
+/*# sourceMappingURL=main.css.map */

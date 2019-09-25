@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="cal_body">
+        <div id="output"></div>
+        <div class="but_parent">
+            <button type="button" class="button" id="sqrt" onclick="mysqrt()">&#8730;</button>
+            <button type="button" class="button" id="negative" onclick="myneg()">x(-1)</button>
+            <button type="button" class="button" onclick="mypos()">x(+1)</button>
+            <button type="button" class="button" onclick="mydiv()">/</button>
+            <button type="button" class="button" id="input7" onclick="number7()">7</button>
+            <button type="button" class="button" id="input8" onclick="number8()">8</button>
+            <button type="button" class="button" id="input9" onclick="number9()">9</button>
+            <button type="button" class="button" onclick="mymult()">*</button>
+            <button type="button" class="button" id="input4" onclick="number4()">4</button>
+            <button type="button" class="button" id="input5" onclick="number5()">5</button>
+            <button type="button" class="button" id="input6" onclick="number6()">6</button>
+            <button type="button" class="button" onclick="mysub()">-</button>
+            <button type="button" class="button" id="input1" onclick="number1()">1</button>
+            <button type="button" class="button" id="input2" onclick="number2()">2</button>
+            <button type="button" class="button" id="input3" onclick="number3()">3</button>
+            <button type="button" class="button" onclick="mysum()">+</button>
+            <button type="button" class="button" id="input0" onclick="number0()">0</button>
+            <button type="button" class="button" id="dot" onclick="mydot()">.</button>
+            <button type="button" class="button" onclick="myclr()">c</button>
+            <button type="button" class="button" onclick="equal()">=</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
